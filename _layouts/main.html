@@ -5,7 +5,7 @@ layout: default
       <div class="card">
 
         <div class="card-content grey lighten-5">
-          <a href="{{ post.url }}"><span class="card-title pink-text text-darken-3">{{ post.title }}</span></a>
+          <a href="{{ post.url | prepend: site.baseurl }}"><span class="card-title pink-text text-darken-3">{{ post.title }}</span></a>
 
         <div class="card-action">{{ post.excerpt }}</div>
 
