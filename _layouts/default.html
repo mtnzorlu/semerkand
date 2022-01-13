@@ -26,7 +26,7 @@
 <div class="card-content">
 <span class="card-title">Gönderiler</span>
 {% for post in site.posts %}
-<div class="card-content"><span><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></span></div>
+<div class="card-content"><span><a href="{{ site.baseurl }}{{ site.posturl }}">{{ post.title }}</a></span></div>
 
 {% endfor %}
 
