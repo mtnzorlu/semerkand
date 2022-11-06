@@ -1,14 +1,42 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
-      <div class="card">
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div class="card">
+    <div class="card-content grey lighten-5">
+      <a href="{{ post.url | prepend: site.baseurl }}"><span class="card-title blue-text text-darken-4">{{ post.title }}</span></a>
 
-        <div class="card-content grey lighten-5">
-          <a href="{{ post.url | prepend: site.baseurl }}"><span class="card-title blue-text text-darken-4">{{ post.title }}</span></a>
 
-        <div class="card-action">{{ post.excerpt }}</div>
-
-        </div>
-      </div>
+  <div class="card-action">{{ post.excerpt }}</div>
+  <div class="date">{{ post.date | date_to_long_string }}</div>
+</div>
+</div>
 {% endfor %}
+
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo;</a>
+  {% else %}
+    <span class="run">&laquo;</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="done">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">&raquo;</a>
+  {% else %}
+    <span class="run">&raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

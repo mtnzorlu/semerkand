@@ -1,2 +1,6 @@
-pre {background-color: #e4e5f7; padding: 10px; border: 1px solid #aeb4e6;} .date {color: rgb(94, 94, 94); background-color: #e4e5f7; padding: 5px 7px;}
+pre {background-color: #e4e5f7; padding: 10px; border: 1px solid #aeb4e6;} 
+.date {color: #5e5e5e; padding: 5px 7px; border-top: 1px solid #ddd;} 
+.pagination{border-top: 1px solid #ccc; padding: 5px; font-size: 18px;} .run{color: #555;} 
+.done{color: #fff; padding: 2px 8px; margin: 0 4px; background-color: #aeb4e6; border-radius: 50%;}
+.pagination a{color: #848bc4; padding: 6px;} .pagination a:hover{color: #000;}
 li {text-decoration: none; list-style: none;}
