@@ -11,10 +11,7 @@ markdown: kramdown
 
 kramdown:
   input: GFM
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
+  syntax_highlighter: rouge
 
 
 plugins:
