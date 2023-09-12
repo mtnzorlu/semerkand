@@ -7,6 +7,8 @@ baseurl: "/semerkand"
 url: "" 
 paginate: 2
 
+highlighter: rouge
+
 markdown: kramdown
 
 kramdown:
