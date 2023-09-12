@@ -1,0 +1,17 @@
+---
+layout: default
+title: Categories
+---
+<div class="card">
+<div class="ctg-action">
+  <h4>{{ page.title }}</h4>
+  <hr>
+<ul>
+  {% for category in site.categories %}
+    <li>
+      <h4><a href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a></h4>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+</div>

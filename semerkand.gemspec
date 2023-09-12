@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "semerkand"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Metin Zorlu"]
   spec.email         = ["metinzorlu@msn.com"]
 
-  spec.summary       = "A Simple theme."
+  spec.summary       = "A Minimal theme."
   spec.homepage      = "https://github.com/mtnzorlu/semerkand"
   spec.license       = "MIT"
 

@@ -9,3 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.6"
   gem "jekyll-paginate"
 end
+
+gem "kramdown-syntax-coderay", "~> 1.0"

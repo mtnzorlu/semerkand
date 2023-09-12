@@ -1,6 +1,65 @@
-pre {background-color: #e4e5f7; padding: 10px; border: 1px solid #aeb4e6;} 
-.date {color: #5e5e5e; padding: 5px 7px; border-top: 1px solid #ddd;} 
-.pagination{border-top: 1px solid #ccc; padding: 5px; font-size: 18px;} .run{color: #555;} 
-.done{color: #fff; padding: 2px 8px; margin: 0 4px; background-color: #aeb4e6; border-radius: 50%;}
-.pagination a{color: #848bc4; padding: 6px;} .pagination a:hover{color: #000;}
-li {text-decoration: none; list-style: none;}
+body{border: 0; margin: 0; padding: 0; box-sizing: border-box; background-color: #b1d0f3;} 
+.container{width: 965px; margin: 0 auto; text-decoration: none;} 
+.content{background-color: #eeeeee; padding: 11px 18px; 
+font-family: 'Roboto', Arial, Helvetica, sans-serif; color: #535353; font-size: 17px; line-height: 27px;}
+
+.nav-wrapper{background-color: #ebebeb; padding: 8px 22px; border-radius: 8px 8px 0 0;  margin-top: 7px;
+    display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; border-bottom: 1px solid #e4e4e4;}
+.logo{color: #8284ac; font-size: 15px; text-decoration: none;}
+.menu{margin: 0; padding: 0;} .menu li{list-style-type: none;}
+.menu a{color: #809999; text-decoration: none; font-size: 14px;}
+.menu a:hover{color: #000000; transition: 1.3s;}
+
+.card{border: 1px solid #e5e5e5; margin: 8px 0; padding: 11px 27px; background-color: #fff; border-radius: 11px;}
+.card-action{color: #747474; padding-bottom: 5px;} 
+.ctg-action{color: #777777;} .ctg-action ul{padding: 0;} .ctg-action li{list-style: none; text-decoration: none;}
+p a{color: #556caa; text-decoration: none;}
+p a:hover{color: #6682cf;} hr{border: 1px solid #ddd;}
+
+.title a{color: #8284ac; text-decoration: none; font-size: 23px; font-weight: 400; font-family: 'Inter Tight', 'Arial Narrow', Arial, sans-serif;}
+.title a:hover{color: #000000; transition: 1.3s;} 
+h1{font-size: 21px; font-weight: normal; color: #8d99ad; line-height: 20px;}
+h2{font-size: 21px; font-weight: normal; color: #8d99ad;}
+h3{font-size: 20px; font-weight: normal; color: #8d99ad;}
+h4{font-size: 18px; font-weight: normal; color: #718EC3; line-height: 18px;} 
+h4 a{color: #555; font-size: 17px; text-decoration: none; text-transform: capitalize;}
+h4 a:hover{color: #7F8FCC; transition: 0.7s;}
+h5{font-size: 18px; font-weight: normal; color: #595959;}
+h6{font-size: 18px; font-weight: normal; color: #454545;}
+
+img{display: flex; flex-direction: column;}
+
+table{font-size: 15px; margin: 2px 0; text-align: left; 
+    color: #555555; border: 1px solid #c4c4c4; border-collapse: collapse;}
+    th{background-color: #e1eaf2; color: #898c92; text-align: center; font-size: 16px; font-weight: normal; 
+    padding: 8px; border: 1px solid #c4c4c4;}
+    td{padding: 6px 8px; border: 1px solid #c4c4c4;} tr{border: 1px solid #c4c4c4;}
+    tr:nth-child(odd) {background-color: #EDEDED;}
+    tr:nth-child(even) {background-color: #e4e4e4;}
+
+pre{padding: 10px; font-size: 14px; white-space: pre-wrap;} code{font-size: 14px;} 
+blockquote{margin: 0; padding: 2px 13px; background-color: #f0f0f0; border-left: 3px solid #d5d5d5; color: #707070;}
+.date{color: #a4a4a4; padding: 3px 4px; border-top: 1px solid #eee; font-size: 12px; text-transform: capitalize;} 
+.category{border: 1px solid #ddd; padding: 3px 6px; margin-left: 5px; border-radius: 5px; background-color: #f5f5ff;}
+.category a{color: #58839b; text-decoration: none;}
+.category:hover{background-color: #eaf5ff;}
+
+.pagination{margin: 15px 3px; font-size: 14px;} 
+.fin{color: #979797; padding: 6px 9px;} 
+.act{color: #fff; background-color: #8894ff; padding: 6px 9px;}
+.pagination a{color: #848bc4; border: 1px solid #ddd; font-size: 14px; text-decoration: none; padding: 6px 7px;} 
+.pagination a:hover{background-color: #8894ff; color: #fff;} 
+.pagination a:active{background-color: #858ed4;}
+
+.page-footer{background-color: #ddd; display: flex; align-items: center; 
+    border-radius: 0 0 5px 5px; padding: 6px 12px; border-top: 1px solid #ccc;}
+.footer-copyright{color: #555; font-size: 11px;}
+
+
+@media screen and (max-device-width: 965px) {     
+    .container{width: 100%;} 
+    p img{max-width: 100%;} p{font-size: 14px;}
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Quicksand:wght@300&display=swap');

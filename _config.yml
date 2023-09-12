@@ -1,17 +1,23 @@
-# Welcome to Jekyll!
-
 title: "Semerkand Blog"
 name: "Semerkand"
 email: metinzorlu@msn.com
 description: Kişisel Blog Sayfası. 
 
-baseurl: "/semerkand" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com 
-twitter_username: deruni
-github_username: mtnzorlu
-
+baseurl: "/semerkand" 
+url: "" 
 paginate: 2
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: table
+    bold_every: 5
+
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag

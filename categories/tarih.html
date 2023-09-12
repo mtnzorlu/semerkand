@@ -1,0 +1,17 @@
+---
+layout: default
+title: Tarih
+category: tarih
+---
+<div class="card">
+<div class="ctg-action">
+  <h4>{{ page.title }}</h4>
+<ul>
+  {% for post in site.categories[page.category] %}
+    <li>
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+</div>
