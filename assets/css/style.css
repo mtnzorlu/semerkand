@@ -37,7 +37,7 @@ table{font-size: 15px; margin: 2px 0; text-align: left;
     tr:nth-child(odd) {background-color: #EDEDED;}
     tr:nth-child(even) {background-color: #e4e4e4;}
 
-pre{padding: 10px; font-size: 14px; white-space: pre-wrap;} code{font-size: 14px;} 
+pre{padding: 17px 21px; font-size: 14px; white-space: pre-wrap; background-color: #171717; border-radius: 9px; overflow: hidden;} 
 blockquote{margin: 0; padding: 2px 13px; background-color: #f0f0f0; border-left: 3px solid #d5d5d5; color: #707070;}
 .date{color: #a4a4a4; padding: 3px 4px; border-top: 1px solid #eee; font-size: 12px; text-transform: capitalize;} 
 .category{border: 1px solid #ddd; padding: 3px 6px; margin-left: 5px; border-radius: 5px; background-color: #f5f5ff;}

@@ -48,6 +48,13 @@ def hello_world():
 hello_world()
 ```
 
+Bu da bir kod bloğu örneğidir:
+
+```javascript
+var islem = document.getElementsByTagName("DIV")[0].innerHTML;
+document.getElementById("sonuc").innerHTML = islem;
+```
+
 Bu bir tablo örneğidir:
 
 | Başlık 1 | Başlık 2 | Başlık 3 |
