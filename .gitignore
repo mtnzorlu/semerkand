@@ -5,5 +5,4 @@
 _site
 _sass
 .git
-_config.yml
 Gemfile.lock
