@@ -1,5 +1,5 @@
 body{border: 0; margin: 0; padding: 0; box-sizing: border-box; background-color: #b1d0f3;} 
-.container{width: 965px; margin: 0 auto; text-decoration: none;} 
+.container{width: 925px; margin: 0 auto; text-decoration: none;} 
 .content{background-color: #eeeeee; padding: 11px 18px; 
 font-family: 'Roboto', Arial, Helvetica, sans-serif; color: #535353; font-size: 17px; line-height: 27px;}
 
@@ -56,7 +56,7 @@ blockquote{margin: 0; padding: 2px 13px; background-color: #f0f0f0; border-left:
 .footer-copyright{color: #555; font-size: 11px;}
 
 
-@media screen and (max-device-width: 965px) {     
+@media screen and (max-device-width: 925px) {     
     .container{width: 100%;} 
     p img{max-width: 100%;} p{font-size: 14px;}
 
